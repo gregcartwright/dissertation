@@ -29,12 +29,18 @@ notes to assess whether we as a team considered appropriate factors, such as:
 + Advance care planning.
 
 ## I aim to collect data from:
-
+As above, I aim to collect my data from patient casenotes. 
 
 ## The challenges I can envisage are:
-
+It may be time consuming obtaining casenotes that have gone into storage. This may cause a delay 
+in my data collection.
 
 ## I intend to overcome them by:
+I could limit my patient selection to patients who have been admittesd under the electronic patient
+record. This may not give me enough patients and I may have to include other patients too. 
+Another problem with this strategy is that it would only include patients from 3 wards, and thus 
+only three MDTs. This sample would not be representative of our full patient and MDT population. 
 
+However, I could collect data from the EPR patients first whilst I await the notes from storage.
 
 
