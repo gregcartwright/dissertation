@@ -19,9 +19,10 @@
       data.addColumn('number', 'Duration');
       data.addColumn('number', 'Percent Complete');
       data.addColumn('string', 'Dependencies');
-
+      
+  
       data.addRows([
-        ['Research', 'Find sources',
+        ['Research', 'Clarify question',
          new Date(2015, 0, 1), new Date(2015, 0, 5), null,  100,  null],
         ['Write', 'Write paper',
          null, new Date(2015, 0, 9), daysToMilliseconds(3), 25, 'Research,Outline'],
@@ -33,8 +34,16 @@
          null, new Date(2015, 0, 6), daysToMilliseconds(1), 100, 'Research']
       ]);
 
+      //format the dates to be UK style
+      var dateFormat =new google.visualization.DateFormat({pattern: 'd/M/yy'});
+      //format start date column
+      dateFormat.format(data, 2);
+      //format end date column
+      dateFormat.format(data, 3);
+
       var options = {
-        height: 275
+        height: 275,
+        timeline: { tooltipDateFormat: 'd/M/yy' }
       };
 
       var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
