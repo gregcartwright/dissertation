@@ -18,6 +18,7 @@
     <div id="gantt_here" style='width:1000px; height:400px;'></div>
     <script type="text/javascript">
 
+/*
         var tasks = {
         data:[
             {id:1, text:"Dissertation",start_date:"27-09-2017", duration:230,
@@ -41,19 +42,15 @@
             {id:5, source:5, target:6, type:"0"}
             ]
         };
+  */
         
         gantt.config.scale_unit = "month";
         gantt.config.step = 1;
         gantt.config.date_scale = "%M";
         
-        //Setup the database
-       // gantt.config.xml_date = "%Y-%m-%d %H:%i";
-        
         gantt.init("gantt_here");
-        //gantt.load('data.php');//loads data to Gantt from the database
-        //var dp=new gantt.dataProcessor("data.php");  
-        //dp.init(gantt);
-        gantt.parse( tasks );
+        console.log("Init done");
+        gantt.load("testTasks.json");
         
     </script>
 </body>
