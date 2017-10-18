@@ -40,3 +40,21 @@ You may need permission from the Chief Nurse - include as an appendix.
 
 Question: Does accessing patient notes for this study require patient's to consent?
 
+# Lecture 18 Oct 2017
+
+Use the appropriate language for quantitative research.
+EG "how I will use my results..."
+Need to check the validity of your tools - eg CFS in my context.
+
+## Power calculations
+*Do I need to do this?*
+
+## tip
+*DO NOT call a table a figure, call it a table.*
+
+In the proposal make it sound like it will not be generalisable --- otherwise R&D may want you to go down the route of HRA ethics.
+
+Think about where I will store my data --- ideally on a Trust shared drive.
+
+Question: How will I find in the notes whether escalation has been considered??
+
