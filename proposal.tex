@@ -1,4 +1,37 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper,oneside,titlepage]{article}
+%titlepage prints the title on it's own page in article class
+
+%doublespace my text
+\renewcommand{\baselinestretch}{1.5}
+
+%reduce the hyphenation of words
+\sloppy
+
+%prints a small space between paragraphs and removes the indenting of the first line
+\setlength{\parskip}{2ex plus0.5ex minus 0.2ex}
+\setlength{\parindent}{0em}
+
+%csquotes - provides multilingual quoting - keeps babel happy
+\usepackage{csquotes}
+%babel required for biblatex to work. Specifying british last make it the language in use
+%\usepackage[english,british]{babel}
+\usepackage[british]{babel}
+
+\usepackage[style=authoryear,backend=biber,
+	giveninits=true,
+	uniquename=init,
+	language=british]{biblatex}
+
+%\defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to DMU standards)}}
+% Add my bibliography file here
+%\addbibresource{masters.bib}
+
+%rotating allows text to be printed sideways
+%multirow allows tables with cells spanning more than one row
+% Remove this if not required
+%\usepackage{rotating,multirow}
+
+
 \begin{document}
 \author{Gregory Cartwright}
 \title{Dissertation proposal.}
@@ -8,7 +41,7 @@ Page 9 of BGS [fff] sets out recommendations for people with frailty.
 Number 6 describes creating a treatment plan.
 CFS should be performed after CGA. Therefore we should use it after the MDT has assessed the patient.
 
-Page 12 of [fff] recommends drawing up an urgent care plan \endash to guide out of hours and emergency service.
+Page 12 of [fff] recommends drawing up an urgent care plan --- to guide out of hours and emergency service.
 
 
 \end{document}
