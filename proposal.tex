@@ -22,7 +22,7 @@
 	uniquename=init,
 	language=british]{biblatex}
 
-%\defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to DMU standards)}}
+\defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to LSBU standards)}}
 % Add my bibliography file here
 \addbibresource{references.bib}
 
@@ -36,12 +36,11 @@
 \author{Gregory Cartwright}
 \title{Dissertation proposal.}
 \maketitle
-The \cite{bgs:14} BGS [fff, page 8] recommend using CFS only after a comprehensive geriatric Assessment.
-Page 9 of BGS [fff] sets out recommendations for people with frailty.
-Number 6 describes creating a treatment plan.
+The \textcite[][page 8]{bgs:14} recommend using CFS only after a Comprehensive Geriatric Assessment (CGA).
+The \textcite{bgs:14} set out recommendations for people with frailty. This includes creating a treatment plan and an urgent care plan, based on what is important for the patient.
 CFS should be performed after CGA. Therefore we should use it after the MDT has assessed the patient.
 
-Page 12 of [fff] recommends drawing up an urgent care plan --- to guide out of hours and emergency service.
+Notes from \textcite{rockwood:05}. CFS can be used to guide care of older people. Need to look at interrater reliability.
 
-
+\printbibliography[prenote=needsfixing]
 \end{document}
