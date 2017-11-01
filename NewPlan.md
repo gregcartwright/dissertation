@@ -14,6 +14,9 @@ would have been better for them if this deterioration had been managed locally.
 This makes me feel that, prior to the event, I should have discussed with them and
 their family about developing a treament escalation plan (TEP).
 
+It is advised by the British Geriatrics Society
+
 ## What is the size of the problem?
 
-1. Look at the data to find how many patients accross all 
+1. Look at the data to find how many patients accross all the community wards in the
+    Trust are readmitted
