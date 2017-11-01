@@ -58,3 +58,14 @@ Think about where I will store my data --- ideally on a Trust shared drive.
 
 Question: How will I find in the notes whether escalation has been considered??
 
+# Lecture 1/11/17
+
+*Tip: good stats book: Andy Field: SPSS*
+
+A lot of statistical tests assume a normal distriution of your data.
+Some data is squewed, eg, length of hospital stay: This will have a long tail.
+
+*The slides show a lot of stuff about types of data*
+
+Cause and effect: If I change X, how will Y change?
+X is the *independent variable*, Y is the *dependent variable*.
