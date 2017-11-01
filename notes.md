@@ -82,3 +82,13 @@ done after collecting the data.
 ### Questions asked by statistical analysis.
 + Is the distriution different from before and after intervention?
 + Is the difference reliable? hoe confident are you of that?
+
+### p values
+p <0.05 means we are 95% sure that the difference is not due to chance.
+
+### Why null hypothesis?
+You set a null hypothessis. If you reject the null hypothesis then the opposite
+*may* be true.
+
+Chi-squared test is a non-parametric test for statistical significance.
+
