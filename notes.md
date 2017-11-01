@@ -69,3 +69,16 @@ Some data is squewed, eg, length of hospital stay: This will have a long tail.
 
 Cause and effect: If I change X, how will Y change?
 X is the *independent variable*, Y is the *dependent variable*.
+
+Also need to think about control variables (other things that affect it, but are 
+controlled), and confounding variables (those that also influence the dependent
+variable but are ignored)
+
+All the work in a quantitative study is the planning of the study design.
+If it has been well designed then you just put all the numbers in and run the stats
+etc that you designed. Compare this with qualitative where all the analysis has to be 
+done after collecting the data.
+
+### Questions asked by statistical analysis.
++ Is the distriution different from before and after intervention?
++ Is the difference reliable? hoe confident are you of that?
