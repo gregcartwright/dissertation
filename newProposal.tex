@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper,oneside,titlepage]{article}
+%titlepage prints the title on it's own page in article class
+
+%doublespace my text
+\renewcommand{\baselinestretch}{1.5}
+
+%reduce the hyphenation of words
+\sloppy
+
+%prints a small space between paragraphs and removes the indenting of the first line
+\setlength{\parskip}{2ex plus0.5ex minus 0.2ex}
+\setlength{\parindent}{0em}
+
+%csquotes - provides multilingual quoting - keeps babel happy
+\usepackage{csquotes}
+%babel required for biblatex to work. Specifying british last make it the language in use
+%\usepackage[english,british]{babel}
+\usepackage[british]{babel}
+
+\usepackage[style=authoryear,backend=biber,
+	giveninits=true,
+	uniquename=init,
+	language=british]{biblatex}
+
+\defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to LSBU standards.
+For example, need to include names of all the authors.)}}
+% Add my bibliography file here
+\addbibresource{references.bib}
+
+%rotating allows text to be printed sideways
+%multirow allows tables with cells spanning more than one row
+% Remove this if not required
+%\usepackage{rotating,multirow}
+
+
+\begin{document}
+\author{Gregory Cartwright}
+\title{Proposal}
+%\maketitle
+\section*{Introduction}
+
+\subsection*{Background}
+The author is an Advanced Nurse Practitioner (ANP) in a community Trust.
+The Trust has community hospitals which have wards for inpatient rehabilitation and
+medical stepdown. Their are 12 wards accross 8 community hospitals. Each ward has
+an ANP who works on the ward to provide medical management of the patients during 
+the hours of monday to friday, 0900 to 1730. Outside of these hours, medical care 
+is provided by the out of hours GP service.
+
+Sometimes patients get admitted to the acute hospital during out of hours period due to a 
+deterioration in their condition.
+These events are reviewed retrospectively. Sometimes the ANP feels that, 
+due to their subjective level of frailty, transfer 
+to an acute hospital was probably not in the patient's best interest and that it
+would have been better for them if this deterioration had been managed locally.
+This makes me feel that, prior to the event, I should have discussed with them and
+their family about developing a treament escalation plan (TEP).
+
+Frailty is acknowledged to be a large problem amongst the ageing population 
+\parencite{clegg:13}, and makes maintenance of homeostais vulnerable to small stressors.
+Whilst the \textcite{bgs:14} advise that frailty is assessed whenever an older person
+comes into contact with a healthcare professional, it is not routinely assessed 
+in these community hospital inpatients. This raises the question that if all these 
+patients were assessed for frailty, and their level of frailty was known to the ANP,
+would this make the ANP aware of how vulnerable their homeostais was.
+This could then trigger the ANP to consider the preemtive planning of escalation
+of treament and discussing a TEP with the patient and their family. Indeed,
+it is recommended that all patients with frailty have such a plan considered
+\parencite{bgs:14}.
+
+\subsection*{What is the size of the problem?}
+\begin{ennumerate}
+\item Look at the data to find how many patients accross all the community wards in the
+    Trust are readmitted.
+\item Assess the frailty of 10 patients from each ward.
+\item Assess how many patients on each ward have a TEP. This should be identifiable on 
+	the electronic handover.
+
+\clearpage
+\printbibliography[prenote=needsfixing]
+\end{document}
