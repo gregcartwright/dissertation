@@ -11,15 +11,18 @@
 \setlength{\parskip}{2ex plus0.5ex minus 0.2ex}
 \setlength{\parindent}{0em}
 
+\usepackage[utf8]{inputenc}
 %csquotes - provides multilingual quoting - keeps babel happy
 \usepackage{csquotes}
 %babel required for biblatex to work. Specifying british last make it the language in use
 %\usepackage[english,british]{babel}
 \usepackage[british]{babel}
+%\usepackage[T1]{fontenc}
 
 \usepackage[style=authoryear,backend=biber,
 	giveninits=true,
 	uniquename=init,
+	maxbibnames=99,
 	language=british]{biblatex}
 
 \defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to LSBU standards.
@@ -70,8 +73,30 @@ of treament and discussing a TEP with the patient and their family. Indeed,
 it is recommended that all patients with frailty have such a plan considered
 \parencite{bgs:14}.
 
+\subsection*{Aims and objectives}
+The main aim of this study is to evaluate whether routine assessment of
+frailty can add value for community hospital inpatients.
+More specifically, can assessing patients with the Clinical Frailty Scale (CFS)
+help increase the rate of 
+treatment escalation planning for patients with severe frailty. 
+
+\subsubsection*{Objectives}
+\begin{enumerate}
+\item Assess whether the community hospital ANP team, and possibly the MDT, 
+feel that there is a  problem with patients 
+having unplanned acute admissions when, in rerospect, the risks involved
+outweigh the benefits.
+\item Assess what proportion of community hospital inpatients are severely frail.
+These patient should have had a treatment escalation plan considered.
+\item Assess what proportion of community hospital inpatients have had consideration
+of treament escalation planning.
+\item Explore what are the percieved barriers to planning treatment escalation
+with severely frail patients.
+
+\end{enumerate}
+
 \subsection*{What is the size of the problem?}
-The clinical frailty scale (CFS) uses clinical judgment to assess level of frailty
+The CFS uses clinical judgment to assess level of frailty
 \parencite{dalhousie:15}. It has been validated as a tool for predicting adverse
 outcomes due to frailty \parencite{rockwood:05} and it may be useful in predicting
 inpatient mortality \parencite{wallis:15}.
