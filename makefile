@@ -6,9 +6,10 @@ newProposal.pdf : newProposal.tex references.bib
 	
 .PHONY: clean
 clean:
-	rm *.log
-	rm *.aux
-	rm *.bcf
-	rm *.blg
-	rm *.run.xml
+	rm -f newProposal.log
+	rm -f newProposal.aux
+	rm -f newProposal.bbl
+	rm -f newProposal.bcf
+	rm -f newProposal.blg
+	rm -f newProposal.run.xml
 	
