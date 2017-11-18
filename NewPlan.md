@@ -21,3 +21,9 @@ It is advised by the British Geriatrics Society
 1. Review the literature to show frailty is a problem
     1. Look at prevalence of frailty
     2. look at problems caused by frailty - morbidity and mortality.
+
+
+Want to find the article Sternberg, S.A., Wershof Schwartz, A„ Karunananthan, S„ Bergman. H.,
+& Mark Clarfield, A. (2011). The identification of frailty: a systematic
+literature review. Journal o f the American Geriatrics Society, 59,
+2129-2138. PubMed doiHO.l 111/j.1532-5415.2011,03597.x 
