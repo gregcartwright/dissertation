@@ -16,7 +16,8 @@ their family about developing a treament escalation plan (TEP).
 
 It is advised by the British Geriatrics Society
 
-## What is the size of the problem?
+## What is the problem?
 
-1. Look at the data to find how many patients accross all the community wards in the
-    Trust are readmitted
+1. Review the literature to show frailty is a problem
+    1. Look at prevalence of frailty
+    2. look at problems caused by frailty - morbidity and mortality.
