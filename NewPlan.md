@@ -19,6 +19,10 @@ It is advised by the British Geriatrics Society
 ## What is the problem?
 
 1. Review the literature to show frailty is a problem
+    1. What is frailty? Look at various definitions. Look at Frieds phenotypes, plus
+        any others. Then lead to Rockwood and the ease of it's use whilst
+        remaining valid. Note: Rockwood really assess person's ability to perform
+        ADLs and IADLs?
     1. Look at prevalence of frailty
     2. look at problems caused by frailty - morbidity and mortality.
 
@@ -27,3 +31,12 @@ Want to find the article Sternberg, S.A., Wershof Schwartz, A„ Karunananthan, 
 & Mark Clarfield, A. (2011). The identification of frailty: a systematic
 literature review. Journal o f the American Geriatrics Society, 59,
 2129-2138. PubMed doiHO.l 111/j.1532-5415.2011,03597.x 
+
+Cossec et al (2016) - french study - at least 11% of all aged over 55 were frail, rising
+to at least 40% of those aged over 85. Of all people with multimorbidity, at least
+75% were pre-frail or frail - does this tell me anything? With relation to Rockwood,
+they found IADL dependencey was an independent determinant of frailty, reinforces
+CFS being vaild. This paper talks about pre-frailty.
+
+Collard et al 2012. Frailty - physiologoical reserve has fallen to a level where 
+small disturbance can lead to "a series of complications". Defines pre-frailty.
