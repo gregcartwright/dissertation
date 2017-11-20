@@ -38,5 +38,14 @@ to at least 40% of those aged over 85. Of all people with multimorbidity, at lea
 they found IADL dependencey was an independent determinant of frailty, reinforces
 CFS being vaild. This paper talks about pre-frailty.
 
-Collard et al 2012. Frailty - physiologoical reserve has fallen to a level where 
+Collard et al 2012.  A systematic review including studies from europe, 
+North America and Taiwan. Frailty - physiologoical reserve has fallen to a level where 
 small disturbance can lead to "a series of complications". Defines pre-frailty.
+Found that at least 10% of people aged 65 or over are frail. And prevalence 
+of at least 26% for those aged over 85.
+
+Sternberg et al 2011.
+
+Enrud et al 2008 - read re outcomes.
+
+Fassbender et al 2009 - read re cost of frailty.
