@@ -44,8 +44,14 @@ small disturbance can lead to "a series of complications". Defines pre-frailty.
 Found that at least 10% of people aged 65 or over are frail. And prevalence 
 of at least 26% for those aged over 85.
 
-Sternberg et al 2011.
+Sternberg et al 2011. An operational definition of frailty is important for clinical care.
+They suggest that a definition that involves adding up deficits is useful for strategic
+planning, less useful for practical clinical use. They found that the most common outcome
+of frailty was death. Also found that frailty is a dynamic condition, rather than a static one.
+They postulate that different frailty tools are suitable for different purposes. 
 
+Martin et al 2008. Re definition; they state that, although there is debate about the definition,
+the concept of an increased vulnerability to stressors is shared.
 Enrud et al 2008 - read re outcomes.
 
 Fassbender et al 2009 - read re cost of frailty.
