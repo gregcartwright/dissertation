@@ -59,6 +59,9 @@ talk about an operational tool that even involves measurement of grip strength
 and gait speed. They suggest that the use of simple methods to identify those
 at risk of increased dependence may facilitate better use of community-based
 management (my words) -> ?benefits to health economy as well as to individual patients.
+They conclude by suggesting that there are settings in which a "complex and time consuming"
+frailty assessment might not be practical, and there is a need for a score that is
+uses "easy-to-collect" data.
 
 Enrud et al 2008 - read re outcomes.
 
