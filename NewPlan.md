@@ -51,7 +51,15 @@ of frailty was death. Also found that frailty is a dynamic condition, rather tha
 They postulate that different frailty tools are suitable for different purposes. 
 
 Martin et al 2008. Re definition; they state that, although there is debate about the definition,
-the concept of an increased vulnerability to stressors is shared.
+the concept of an increased vulnerability to stressors is shared. Point out that
+some validated tools require numerous complicated measurements to be taken which 
+would not routinely be performed in clinical practice, even through a CGA. 
+(my words) This would make such a tool impractical to use in such a setiing. They 
+talk about an operational tool that even involves measurement of grip strength 
+and gait speed. They suggest that the use of simple methods to identify those
+at risk of increased dependence may facilitate better use of community-based
+management (my words) -> ?benefits to health economy as well as to individual patients.
+
 Enrud et al 2008 - read re outcomes.
 
 Fassbender et al 2009 - read re cost of frailty.
