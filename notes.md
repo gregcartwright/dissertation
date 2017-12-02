@@ -84,11 +84,18 @@ done after collecting the data.
 + Is the difference reliable? hoe confident are you of that?
 
 ### p values
-p <0.05 means we are 95% sure that the difference is not due to chance.
+p < 0.05 means we are 95% sure that the difference is not due to chance.
 
 ### Why null hypothesis?
 You set a null hypothessis. If you reject the null hypothesis then the opposite
 *may* be true.
 
 Chi-squared test is a non-parametric test for statistical significance.
+
+## Discussion with Caroline 15 November
+Trust R&D person is Susan Corr
+
+Need to discount discussing with OOH due to large workforce - rationalise this.
+
+Think of frailty as a syndrome or disease process that should have a management plan
 
