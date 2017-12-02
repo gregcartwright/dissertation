@@ -63,6 +63,11 @@ They conclude by suggesting that there are settings in which a "complex and time
 frailty assessment might not be practical, and there is a need for a score that is
 uses "easy-to-collect" data.
 
-Enrud et al 2008 - read re outcomes.
+Enrud et al 2008 - Describes CHS index with 5 components, identified as not being practical to use as 
+some of its components require knowledge of the disribution of these components within
+the population. Other reasons given are that to asses some of the criteria require
+time that is unrealistic in the clinical setting. These are not problems for CFS. Results showed 
+frailty increased mortality risk by at least 2.4 times.
 
-Fassbender et al 2009 - read re cost of frailty.
+Fassbender et al 2009 - Frailty was a leading cause of death in Alberta, attributable for over 30%
+of all deaths.
