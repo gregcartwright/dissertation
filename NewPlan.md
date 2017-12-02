@@ -1,5 +1,29 @@
 # New Plan
 
+## Possible structure for proposal
+
+1. Frailty, context and background
+     + Community hospital population
+     + To include literature review 
+     + Discuss prevalence of frailty
+     + Discuss frailty as a syndrome or disease process that should have a 
+       management plan
+     + Examine what that managment plan should be. This should come from the 
+       literature review. *This needs to lead on to escalation planning.*
+2. Discuss the community hospital age range and common outcomes
+     + Increased PoC
+     + Placement
+     + (Are there numbers to support this?)
+3. How to asses frailty
+     + Rockwood and rationale for choice of tool
+4. Look at level of frailty in community hospital inpatients
+     + Get ANPs to do a snapshot of the frailty of all the inpatients
+     + Just include SystmOne wards
+5. On admission, how many patients have a DNAR order or a TEP?
+6. On discharge, how many patients have a DNAR order or a TEP?
+7. This should tell us if knowing that our patients are frail informs our 
+   management of this.
+
 ## Background
 
 The author is an Advanced Nurse Practitioner (ANP) in a community Trust.
