@@ -96,3 +96,5 @@ frailty increased mortality risk by at least 2.4 times.
 ### Fassbender et al 2009 
 Frailty was a leading cause of death in Alberta, attributable for over 30%
 of all deaths.
+
+### Romero-ortuno et al 2016
