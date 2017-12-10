@@ -102,9 +102,12 @@ Frailty was a leading cause of death in Alberta, attributable for over 30%
 of all deaths.
 
 ### Office for national statistics 
-Looked at all adult deaths in England for a 4 month period in 2012. Excluded all deaths
+Looked at all adult sdeaths in England for a 4 month period in 2012. Excluded all deaths
 due to accident, homicide and suicide. 42% of remaining deaths were not due to
-cancer or cardiovascular disease. What proportion of this was frailty?
+cancer or cardiovascular disease (CVD). What proportion of this was frailty?
+
+59% of the deaths were in people aged 80 or over. (Think about frailty prevalence in 
+this age group) In this age group, 70% of the deaths were non-cancer and non-CVD.
 
 ### Romero-ortuno et al 2016
 There should not be one tool for measuring frailty, as different tools suit 
@@ -120,4 +123,14 @@ They note that polypharmacy can contribute to delirium for people with frailty,
 and thus polypharmacy should be reviewed and drug regimes consolidated.
 
 Hospital is the least preferred place of death. People with frailty often have poor
-end-of-life care
+end-of-life care and they are less likely to be involved in decision making about
+about their care or to have an advanced care plan.
+
+Diffiulty with advance care planning in frailty: there is no event that signals
+entering last stages of life compared with, for example, a late diagnosis of 
+metastatic cancer. This can mean that this is not identified and subsequently
+discussions about advance care planning often do not happen. When someone is
+approaching the end of life they must be informed and their multi-faceted needs
+assessed. This is also important as soon as possible after idenfication in case 
+the person loses capacity to make decisions about their care. Their previous
+wishes can then be used to guide future decision making in these circumstances.
