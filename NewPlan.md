@@ -113,6 +113,12 @@ this age group) In this age group, 70% of the deaths were non-cancer and non-CVD
 There should not be one tool for measuring frailty, as different tools suit 
 different purposes.
 
+Note: this service evaluation project did not need any ethics approval once registered
+with the audit department.
+
+Looked at all emergency admissions for a year of patients aged >= 75, mean age of these
+was 84.
+
 ### Kingsfund 2014
 Frailty is common amongst those who are housebound live in a care home or who have 
 home care needs. This is in line with the CFS definitions of frailty.
@@ -134,3 +140,24 @@ approaching the end of life they must be informed and their multi-faceted needs
 assessed. This is also important as soon as possible after idenfication in case 
 the person loses capacity to make decisions about their care. Their previous
 wishes can then be used to guide future decision making in these circumstances.
+
+They highlight the good example of "Deciding Right", an initiative et up to 
+support preofessionals and people make decisions in advance of deterioration
+in their health and mental capacity. It helps plans to be documented about future
+treament to enable decisions to be made on their behalf.
+
+### Silver book
+During the OOH period, many older people are admitted to hospital only to die shortly 
+after admission - within hours. OOH clinicians do not know the history of the patient
+and are aware that delays in getting the right treament can be catastrophic.
+(my words) they probably admit the patient to avoid this risk.
+
+Acknowledges that people being admitted to community hospitals are typically 
+older people with frailty.
+
+End of life care in frail older people is often overlooked. (EOL phase might not
+be recognised - Kingsfund 2014) Acknowledge that over investigation and uncessary
+interventions in this group are costly for the individual and the health economy.
+
+They adivse that preferences for future care should be sought early in the patient
+stay.
