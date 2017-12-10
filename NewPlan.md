@@ -37,6 +37,10 @@ to an acute hospital was probably not in the patient's best interest and that it
 would have been better for them if this deterioration had been managed locally.
 This makes me feel that, prior to the event, I should have discussed with them and
 their family about developing a treament escalation plan (TEP).
+A TEP would not affect the care or treament they receive in community hospital,
+it is more about thinking what an acute admission would be able to offer them,
+and weighing that up with the risks involved for the individual. It is also about 
+finding out what is important to the patient at this stage of their life.
 
 It is advised by the British Geriatrics Society
 
@@ -97,4 +101,23 @@ frailty increased mortality risk by at least 2.4 times.
 Frailty was a leading cause of death in Alberta, attributable for over 30%
 of all deaths.
 
+### Office for national statistics 
+Looked at all adult deaths in England for a 4 month period in 2012. Excluded all deaths
+due to accident, homicide and suicide. 42% of remaining deaths were not due to
+cancer or cardiovascular disease. What proportion of this was frailty?
+
 ### Romero-ortuno et al 2016
+There should not be one tool for measuring frailty, as different tools suit 
+different purposes.
+
+### Kingsfund 2014
+Frailty is common amongst those who are housebound live in a care home or who have 
+home care needs. This is in line with the CFS definitions of frailty.
+Even a minor stressor can be catasrophic: immobility, fall, delirium,
+non-specific failure to thrive. CGA can reduce incedence of falls, hospital
+admission and moves into long term care for people with frailty.
+They note that polypharmacy can contribute to delirium for people with frailty, 
+and thus polypharmacy should be reviewed and drug regimes consolidated.
+
+Hospital is the least preferred place of death. People with frailty often have poor
+end-of-life care
