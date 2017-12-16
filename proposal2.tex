@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper,oneside,titlepage]{article}
+%titlepage prints the title on it's own page in article class
+
+%doublespace my text
+\renewcommand{\baselinestretch}{1.5}
+
+%reduce the hyphenation of words
+\sloppy
+
+%prints a small space between paragraphs and removes the indenting of the first line
+\setlength{\parskip}{2ex plus0.5ex minus 0.2ex}
+\setlength{\parindent}{0em}
+
+%csquotes - provides multilingual quoting - keeps babel happy
+\usepackage{csquotes}
+%babel required for biblatex to work. Specifying british last make it the language in use
+%\usepackage[english,british]{babel}
+\usepackage[british]{babel}
+
+\usepackage[style=authoryear,backend=biber,
+	giveninits=true,
+	uniquename=init,
+	language=british]{biblatex}
+
+\defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to LSBU standards.
+For example, need to include names of all the authors.)}}
+% Add my bibliography file here
+\addbibresource{references.bib}
+
+%rotating allows text to be printed sideways
+%multirow allows tables with cells spanning more than one row
+% Remove this if not required
+%\usepackage{rotating,multirow}
+
+
+\begin{document}
+\author{Gregory Cartwright}
+\title{}
+%\maketitle
+\section*{Introduction}
+
+The author is an advanced nurse practitioner (ANP) in a community Trust.
+The Trust has community hospitals which have wards for inpatient rehabilitation and
+medical stepdown. Their are 12 wards accross 8 community hospitals. Each ward has
+an ANP who works on the ward to provide medical management of the patients during 
+the hours of Monday to Friday, 0900 to 1730. Outside of these hours, medical care 
+is provided by the out of hours GP service. When patients are admitted to one of
+these wards they have a comprehensive geriatric assessment (CGA) \parencite{bgs:14} 
+performed by the multi-disciplinary team (MDT).
+\subsection*{}
+
+\clearpage
+\printbibliography[prenote=needsfixing]
+\end{document}
