@@ -119,6 +119,11 @@ with the audit department.
 Looked at all emergency admissions for a year of patients aged >= 75, mean age of these
 was 84.
 
+Frailty is a predictor of inpatient mortality that is independent of confounding variables.
+CFS of 7 or 8 and EWS >=4 gives high risk of inpatient mortality. They suggest that CFS
+of theis level should be used to trigger early planning of care escalation, and that frailty
+generally can be used to focus on personalised care planning and excalation plannning.
+
 ### Kingsfund 2014
 Frailty is common amongst those who are housebound live in a care home or who have 
 home care needs. This is in line with the CFS definitions of frailty.
@@ -161,3 +166,19 @@ interventions in this group are costly for the individual and the health economy
 
 They adivse that preferences for future care should be sought early in the patient
 stay.
+
+### Wallis et al 
+Inptient mortality and 30-day readmission rates are high for CFS >= 6.
+
+### Kang et at
+Looking at patients with ACS. Frailty is an independent risk factor for inpatient
+mortality, increased 3-month mortality and increased readmission, but not with 
+major adverse cardiovascular events. They argue that CFS shouls be used to plan
+patient pathways.
+
+### Juma et al
+Frailty is a risk factor for extended length of stay.
+
+### Khalon et al
+Frailty is an independent risk factor for readmission or death 30 within 30 days
+following discharge.
