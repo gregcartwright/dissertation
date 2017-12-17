@@ -22,6 +22,8 @@
 	uniquename=init,
 	language=british]{biblatex}
 
+\usepackage{graphicx}
+
 \defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to LSBU standards.
 For example, need to include names of all the authors.)}}
 % Add my bibliography file here
@@ -89,6 +91,7 @@ purpose.
 
 In both the clincal area which the author works and the emergency department at
 the local acute Trust, frailty is assessed using the Clinical Frailty Scale (CFS).
+See appendix~\ref{appendix:CFS}.
 The CFS is a tool that has been validated for use in cinical practice 
 \parencite{rockwood:05}. It rates frailty based on the person's level of independence
 and dependence, giving them an ordinal postion on the continuum from very fit and completely 
@@ -100,4 +103,12 @@ the patient has had a CGA \parencite{bgs:14}.
 
 \clearpage
 \printbibliography[prenote=needsfixing]
+
+\clearpage
+\begin{appendix}
+\section{Clinical Frailty Scale}
+\label{appendix:CFS}
+\includegraphics{CFS}
+\end{appendix}
+
 \end{document}
