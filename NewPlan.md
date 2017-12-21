@@ -180,5 +180,5 @@ patient pathways.
 Frailty is a risk factor for extended length of stay.
 
 ### Khalon et al
-Frailty is an independent risk factor for readmission or death 30 within 30 days
+Frailty is an independent risk factor for readmission or death within 30 days
 following discharge.
