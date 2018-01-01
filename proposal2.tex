@@ -20,7 +20,11 @@
 \usepackage[style=authoryear,backend=biber,
 	giveninits=true,
 	uniquename=init,
+	citestyle=authoryear,
 	language=british]{biblatex}
+
+%Add a comma between name and year in citations
+\renewcommand*{\nameyeardelim}{\addcomma\space}
 
 \usepackage{graphicx}
 
