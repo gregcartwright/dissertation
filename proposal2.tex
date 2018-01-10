@@ -27,10 +27,19 @@
 	giveninits=true,
 	uniquename=init,
 	citestyle=authoryear,
+	dashed=false,
+	maxcitenames=2,
+	maxbibnames=100,
 	language=british]{biblatex}
 
 %Add a comma between name and year in citations
 \renewcommand*{\nameyeardelim}{\addcomma\space}
+%put double space between entries in the references
+\setlength\bibitemsep{2\itemsep}
+
+%Ensure all names in reference list are formatted as Surname, I.
+\DeclareNameAlias{default}{last-first}
+\DeclareNameAlias{sortname}{last-first}
 
 \usepackage{graphicx}
 
