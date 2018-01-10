@@ -29,7 +29,7 @@
 	citestyle=authoryear,
 	dashed=false,
 	maxcitenames=2,
-	maxbibnames=100,
+	maxbibnames=99,
 	language=british]{biblatex}
 
 %Add a comma between name and year in citations
@@ -37,14 +37,27 @@
 %put double space between entries in the references
 \setlength\bibitemsep{2\itemsep}
 
+%remove hanging indent from the reference list
+\setlength\bibhang{0em}
+
 %Ensure all names in reference list are formatted as Surname, I.
 \DeclareNameAlias{default}{last-first}
 \DeclareNameAlias{sortname}{last-first}
 
+%Code to format journal article volume and issue as v (i)
+\renewbibmacro*{volume+number+eid}{
+	\printfield{volume}
+	\setunit*{\addnbspace}
+	\printfield{number}
+	\setunit{\addcomma\space}
+	\printfield{eid}
+}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
 \usepackage{graphicx}
 
-\usepackage{amsthm}
-\newtheorem*{nullhypothesis}{Null hypothesis}
+%\usepackage{amsthm}
+%\newtheorem*{nullhypothesis}{Null hypothesis}
 
 \defbibnote{needsfixing}{\emph{(this formatting needs looking at -- not currently to LSBU standards.
 For example, need to include names of all the authors.)}}
