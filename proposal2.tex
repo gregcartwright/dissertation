@@ -27,6 +27,7 @@
 
 \usepackage[style=authoryear,backend=biber,
 	giveninits=true,
+	dateabbrev=false,
 	uniquename=init,
 	citestyle=authoryear,
 	dashed=false,
@@ -57,11 +58,23 @@
 }
 \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
 
+%Code to format the 'Accessed day month year' in the references
+\DeclareFieldFormat{urldate}{%
+	[Accessed \thefield{urlday}\addspace%
+  \mkbibmonth{\thefield{urlmonth}}\addspace%
+  \thefield{urlyear}]}
+  
+%Code to format the 'Available from:' in the URL in references
+\DeclareFieldFormat{url}{\bibstring{urlfrom}\addcolon\space\url{#1}}
+\DefineBibliographyStrings{british}{
+	urlfrom = {Available from}
+}
+
+%Command to STOP the references section and everything after having it's own header.
+\defbibheading{bibliography}[\refname]{\section*{#1}}
+
 \usepackage{graphicx}
 
-\defbibnote{needsfixing}{\emph{(this formatting needs looking at -- 
-	not currently to LSBU standards. )}}
-	
 % Add my bibliography file here
 \addbibresource{references.bib}
 
@@ -385,6 +398,7 @@ terms:
 \item acute
 \item escalation
 \item advance care plan
+\item ACP
 \item deterioration
 \end{itemize}
 
@@ -427,21 +441,21 @@ To ensure that there is appropriate approval from the Trust to undertake this pr
 the author contacted their line manager, the Trust Head of Research and Development and
 the Trust Caldicott Guardian and sent them copies of this document. 
 
-The line manager has given their full support to the project and her response 
-is provided in appendix~\ref{appendix:caroline}. The head of research and development
+The line manager has given their full support to the project (see Appendix~\ref{appendix:caroline}).
+The head of research and development
 advised that the project sounded like it was probably not research and that 
 the Health Research Authority (HRA) online decision tool should be used to confirm this.
 They advised that if this tool says that the study is not classed as research then
 the Trust Clinical Governance group should be contacted. The HRA tool did show
-that the study is not considered to be research. The outcome of this is included
-in appendix~\ref{appendix:hra}. The Trust Clinical Governance Lead was contacted
-and has given her approval to the project. This is however subject to formal approval
+that the study is not considered to be research (see Appendix~\ref{appendix:hra}).
+The Trust Clinical Governance Lead was contacted
+and has given her approval to the project. This is subject to formal approval
 by the Trust Clinical Governance and Effectiveness Audit group who will review 
-the proposal at their next meeting on 5 February 2018. A copy of the communication
-from the Trust Clinical Governance Lead is provided in appendix~\ref{appendix:clingov}.
+the proposal at their next meeting on 5 February 2018 (see Appendix~\ref{appendix:clingov}).
 
 The Trust Caldicott Guardian has advised that there should be further discussion with 
-the research team prior to his final approval. This contact will be made this week.
+the research team prior to his final approval. This has taken place and their 
+approval has been granted (see Appendix~\ref{appendix:daveclarke}).
 
 \textcite{biggam:15} identifies five ethical principles that a study should maintain:
 \begin{enumerate}
@@ -462,7 +476,7 @@ This document sets out clearly how the study will be conducted.
 \subsection{Impartial}
 The author is an employee of the Trust where the study will take place. If any bad
 practice is discovered as part of the work undertaken then the relevant manager
-will be informed. Although the author usually works in th community hospital wards,
+will be informed. Although the author usually works in the community hospital wards,
 since December 2017 he has been undertaking a rotation into the acute Trust. This 
 means that he will not have been involved in the community hospital care of any
 patients involved in the study, reducing the risk of bias.
@@ -476,13 +490,13 @@ any possible resulting bias.
 To ensure that the confidentiality of patients is maintained during this study there
 will be no recording of patient identifying data outside of the EPR. Each patient
 record will be allocated a study ID number which will be recorded in the data collection
-tool, see appendix~\ref{appendix:tool}. This will anonymise the records.
+tool (see Appendix~\ref{appendix:tool}). This will anonymise the records.
 
 The data collection tool will be an electronic Microsoft Excel 2010 spreadsheet
 which will be stored on a Trust owned laptop which is encrypted and password protected. A backup 
 of the data will be maintained on a secure Trust server which will be accessed over
-the secure Trust network. All the data will be destroyed one year following completion 
-of the study; May 2019.
+the secure Trust network. All the data will be destroyed two years following completion 
+of the study; the end of May 2020.
 
 \subsection{Voluntary}
 
@@ -497,7 +511,7 @@ Here is the proposed timetable for completion of this dissertation:
 A traditional style of dissertation is planned.
 
 \clearpage
-\printbibliography[prenote=needsfixing]
+\printbibliography
 
 \clearpage
 \begin{appendix}
@@ -518,13 +532,13 @@ A traditional style of dissertation is planned.
 \label{appendix:hra}
 \includegraphics[width=\textwidth]{hraresult.pdf}
 
-%\section{Caldicott Guardian response}
-%\label{appendix:caldicott}
-%\includegraphics[width=\textwidth]{sathesh.pdf}
-
 \section{Clinical Governance Lead response}
 \label{appendix:clingov}
 \includegraphics[width=\textwidth]{heather.pdf}
+
+\section{Research and Development response}
+\label{appendix:daveclarke}
+\includegraphics[width=\textwidth]{daveclarke}
 
 \end{appendix}
 
