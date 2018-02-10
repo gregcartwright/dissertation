@@ -1,0 +1,108 @@
+\documentclass
+[
+	12pt,
+	a4paper,
+	oneside,
+%	titlepage
+]{article}
+%titlepage prints the title on it's own page in article class
+
+\pagestyle{myheadings}
+\markright{Gregory Cartwright --- 3403548 --- dissertation proposal}
+
+%doublespace my text
+\renewcommand{\baselinestretch}{1.5}
+
+%reduce the hyphenation of words
+\sloppy
+
+%prints a small space between paragraphs and removes the indenting of the first line
+\setlength{\parskip}{2ex plus0.5ex minus 0.2ex}
+\setlength{\parindent}{0em}
+
+%csquotes - provides multilingual quoting - keeps babel happy
+\usepackage{csquotes}
+%babel required for biblatex to work. Specifying british last make it the language in use
+%\usepackage[english,british]{babel}
+\usepackage[british]{babel}
+
+\usepackage[style=authoryear,backend=biber,
+	giveninits=true,
+	dateabbrev=false,
+	uniquename=init,
+	citestyle=authoryear,
+	dashed=false,
+	maxcitenames=2,
+	maxbibnames=99,
+	sorting=nyt,
+	language=british]{biblatex}
+
+%Add a comma between name and year in citations
+\renewcommand*{\nameyeardelim}{\addcomma\space}
+%put double space between entries in the references
+\setlength\bibitemsep{2\itemsep}
+
+%remove hanging indent from the reference list
+\setlength\bibhang{0em}
+
+%Ensure all names in reference list are formatted as Surname, I.
+\DeclareNameAlias{default}{last-first}
+\DeclareNameAlias{sortname}{last-first}
+
+%Code to format journal article volume and issue as v (i)
+\renewbibmacro*{volume+number+eid}{
+	\printfield{volume}
+	\setunit*{\addnbspace}
+	\printfield{number}
+	\setunit{\addcomma\space}
+	\printfield{eid}
+}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+%Code to format the 'Accessed day month year' in the references
+\DeclareFieldFormat{urldate}{%
+	[Accessed \thefield{urlday}\addspace%
+  \mkbibmonth{\thefield{urlmonth}}\addspace%
+  \thefield{urlyear}]}
+  
+%Code to format the 'Available from:' in the URL in references
+\DeclareFieldFormat{url}{\bibstring{urlfrom}\addcolon\space\url{#1}}
+\DefineBibliographyStrings{british}{
+	urlfrom = {Available from}
+}
+
+%Command to STOP the references section and everything after having it's own header.
+\defbibheading{bibliography}[\refname]{\section*{#1}}
+
+\usepackage{graphicx}
+
+
+% Add my bibliography file here
+\addbibresource{references.bib}
+
+%rotating allows text to be printed sideways
+%multirow allows tables with cells spanning more than one row
+% Remove this if not required
+%\usepackage{rotating,multirow}
+
+\begin{document}
+\author{Gregory Cartwright\\
+	Student number 3403548\\
+	MSc Advanced Nurse Practitioner 
+}
+\title{Does level of frailty influence advance care planning 
+	for community hospital inpatients?
+}
+
+\maketitle
+
+\begin{abstract}
+The abstract goes here.
+\end{abstract}
+
+\section{}
+
+\subsection{}
+\clearpage
+\printbibliography
+\end{document}
