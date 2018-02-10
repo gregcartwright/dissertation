@@ -7,3 +7,6 @@
 *.log
 *.run.xml
 *.bak
+
+# compiled target files
+proposal2.pdf
