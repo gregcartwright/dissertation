@@ -9,11 +9,17 @@
 *.bak
 
 # compiled target files
+#####################
 proposal2.pdf
 template.pdf
 main.pdf
 
 # resultant proprietary format files
+#####################
 *.docx
 *.doc
+
+# Temporary files
+#####################
+*.swp
 
