@@ -99,3 +99,52 @@ Need to discount discussing with OOH due to large workforce - rationalise this.
 
 Think of frailty as a syndrome or disease process that should have a management plan
 
+## Reply to ethics panel
+
++ Clarify objective 2
+
+This means to examine the relationship between frailty and whether advance care
+planning happens. There may be other factors that influence whether advance care
+planning happens which may include the age of the patient, their gender and what 
+their intial presenting complaint was. I will therefore collect all this data for
+each patient so that I can analyse what might influence advance care planning.
+
++ Clarify data analyisys plan
+
+I will categorise frailty by grouping CFS as follows:
++ mild frailty CFS 1 to 5
++ moderate frailty: CFS 6
++ Severe frailty: CFS 7 to 9
+
+The data will initially be presented graphically. These graphs will aim to illustrate
+any relationship between advance care planning any factors that might have an 
+influence on it: 
+frailty, age, gender and initial presenting complaint.
+
+The distribution of the study population will be presented graphically. 
+
+I think that to illustrate the distribution of participants by individual CFS score, a histogram
+will be useful. 
+
+To illustrate the distribution by category of frailty, by gender and by presenting 
+complaint, pie charts will be used.
+
+A histogram will be useful to show the distribution of participants
+by age group. Ages will be grouped as follows:
++ less than 50
++ 50 to 65
++ 65 to 70
++ 75 to 80
++ 85 to 90
++ 90 to 95
++ 95 to 100
++ over 100
+I think 
+that a pie chart would probably be good to illustrate this for level of frailty
+
+A bar chart will be used to show the relative frequencies of advance care planning
+for each level of CFS: 1 to 9. A further bar chart will show these frequencies with
+CFS grouped into mild frailty (CFS of 1 to 5), moderate frailty (CFS of 6) and severe
+frailty (CFS of 7 to 9). The y-axis in these charts will be the number of patients
+for each category for whom advance care planning was carried out as a proportion of
+the total number of patients in that category.  
