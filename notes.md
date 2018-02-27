@@ -139,8 +139,9 @@ by age group. Ages will be grouped as follows:
 + 90 to 95
 + 95 to 100
 + over 100
+
 I think 
-that a pie chart would probably be good to illustrate this for level of frailty
+that a pie chart would be good to illustrate this for level of frailty.
 
 A bar chart will be used to show the relative frequencies of advance care planning
 for each level of CFS: 1 to 9. A further bar chart will show these frequencies with
@@ -148,3 +149,13 @@ CFS grouped into mild frailty (CFS of 1 to 5), moderate frailty (CFS of 6) and s
 frailty (CFS of 7 to 9). The y-axis in these charts will be the number of patients
 for each category for whom advance care planning was carried out as a proportion of
 the total number of patients in that category.  
+
+Similar bar charts will be used to show the relative frequnecy of advance care
+planning for gender, age group and presenting complaint.
+
+For statistical analysis chi squared test will be applied to look for a relationship
+between advance care planning and the variables level of frailty, age, gender and 
+presenting complaint.
+
+In answer to point 4, I provide a form that will be used to collect data in 
+appendix B.
