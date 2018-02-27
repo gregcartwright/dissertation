@@ -159,3 +159,16 @@ presenting complaint.
 
 In answer to point 4, I provide a form that will be used to collect data in 
 appendix B.
+
+Chat with Sharon
+================
+ensure that data analysis links to each objective.
+
+Change non parametric methods will be used to look for correlations to realationships.
+
+Reframe number 2 to ensure that it fully explains the patients that I am interested in.
+
+Then go on to ensure that my data analysis, as explained, supports these objectives.
+
+Probably need to say that I will discount all patients that have an ACP when 
+admitted to the ward.
