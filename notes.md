@@ -103,13 +103,28 @@ Think of frailty as a syndrome or disease process that should have a management 
 
 + Clarify objective 2
 
+Existing objective 2:
+"Examine the relationship between frailty and other patient factors and
+whether advance care planning is undertaken."
+
+This should be rewritten:
+"Examine the relationship between frailty and aother patient factors (age, gender
+and presenting complaint) and whether advance care planning is undertaken during
+the community hospital in-patient stay."
+
 This means to examine the relationship between frailty and whether advance care
-planning happens. There may be other factors that influence whether advance care
+planning happens during the community hospital stay. There may be other factors 
+that influence whether advance care
 planning happens which may include the age of the patient, their gender and what 
 their intial presenting complaint was. I will therefore collect all this data for
-each patient so that I can analyse what might influence advance care planning.
+each patient so that I can analyse what might influence advance care planning. As
+I am investigating what happens to patients during their stay in a community
+hospital, I will exclude patients who have a pre-existing ACP when they are 
+admitted to the community hospital.
 
 + Clarify data analyisys plan
+
+For objective 1: *** Sort this out ***
 
 I will categorise frailty by grouping CFS as follows:
 + mild frailty CFS 1 to 5
@@ -158,7 +173,10 @@ between advance care planning and the variables level of frailty, age, gender an
 presenting complaint.
 
 In answer to point 4, I provide a form that will be used to collect data in 
-appendix B.
+appendix B. In this form the second, third and fourth columns will be "YES/NO"
+options. If the entry in the second column is "YES" then the remainder of the 
+data will not be collected for that patient as they will not be included in the 
+rest of the study.
 
 Chat with Sharon
 ================
