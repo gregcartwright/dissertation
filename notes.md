@@ -101,51 +101,39 @@ Think of frailty as a syndrome or disease process that should have a management 
 
 ## Reply to ethics panel
 
-+ Clarify objective 2
+I would like to answer point number 2 first:
+
+### Clarify objective 2
 
 Existing objective 2:
 "Examine the relationship between frailty and other patient factors and
 whether advance care planning is undertaken."
 
-This should be rewritten:
+To aid clarity this should be rewritten:
 "Examine the relationship between frailty and aother patient factors (age, gender
 and presenting complaint) and whether advance care planning is undertaken during
 the community hospital in-patient stay."
 
-This means to examine the relationship between frailty and whether advance care
+My intention here is to examine the relationship between frailty and whether advance care
 planning happens during the community hospital stay. There may be other factors 
 that influence whether advance care
 planning happens which may include the age of the patient, their gender and what 
 their intial presenting complaint was. I will therefore collect all this data for
 each patient so that I can analyse what might influence advance care planning. As
 I am investigating what happens to patients during their stay in a community
-hospital, I will exclude patients who have a pre-existing ACP when they are 
-admitted to the community hospital.
+hospital, if a patient has a pre-existing ACP when they are admitted to the 
+community hospital, this will be recorded in the data collection tool.
 
-+ Clarify data analyisys plan
+I would now like to answer points 1 and 3.
 
-For objective 1: *** Sort this out ***
+### Clarify data analyisys plan
 
-I will categorise frailty by grouping CFS as follows:
+I will categorise frailty by grouping CFS:
 + mild frailty CFS 1 to 5
 + moderate frailty: CFS 6
 + Severe frailty: CFS 7 to 9
 
-The data will initially be presented graphically. These graphs will aim to illustrate
-any relationship between advance care planning any factors that might have an 
-influence on it: 
-frailty, age, gender and initial presenting complaint.
-
-The distribution of the study population will be presented graphically. 
-
-I think that to illustrate the distribution of participants by individual CFS score, a histogram
-will be useful. 
-
-To illustrate the distribution by category of frailty, by gender and by presenting 
-complaint, pie charts will be used.
-
-A histogram will be useful to show the distribution of participants
-by age group. Ages will be grouped as follows:
+Ages will be grouped as follows:
 + less than 50
 + 50 to 65
 + 65 to 70
@@ -155,8 +143,40 @@ by age group. Ages will be grouped as follows:
 + 95 to 100
 + over 100
 
-I think 
-that a pie chart would be good to illustrate this for level of frailty.
+For objective 1: 
+
+The study population will be preseted in tables showing the numbers and percentages
+for CFS score, frailty category, age, gender and presenting complaint. Within each
+of these I will also show the numbers and percentages who had a pre-existing ACP
+on admission to community hospital.
+
+The distribution of the study population will be presented graphically as follows.
+
+To illustrate the distribution of participants by individual CFS score, a histogram
+will be useful. 
+
+To illustrate the distribution by category of frailty, by gender and by presenting 
+complaint, pie charts will be used.
+
+A histogram will be useful to show the distribution of participants
+by age group. 
+I think that a pie chart would be good to illustrate this for level of frailty.
+
+Within each of these graphs, different colour or shading will be used to show
+the proportion that had a pre-existing ACP on admission to the community hospital.
+
+For objective 2:
+
+This objective is looking at what happens during the community hospital stay and 
+thus relates only to people who did not have a pre-existing ACP when they
+were admitted to the community hospital, therefore the analysis will only include these 
+patients.
+
+The data will initially be presented graphically. These graphs will aim to illustrate
+any relationship between advance care planning being carried out during community
+hospital stay and any factors that might have an 
+influence on it: 
+frailty, age, gender and initial presenting complaint.
 
 A bar chart will be used to show the relative frequencies of advance care planning
 for each level of CFS: 1 to 9. A further bar chart will show these frequencies with
@@ -168,7 +188,9 @@ the total number of patients in that category.
 Similar bar charts will be used to show the relative frequnecy of advance care
 planning for gender, age group and presenting complaint.
 
-For statistical analysis chi squared test will be applied to look for a relationship
+Due to the data being ordinal and nominal in nature, non-parametric measures will
+used to look for relationships. For this statistical analysis chi squared 
+test or a Fisher's exact test will be applied to look for a relationship
 between advance care planning and the variables level of frailty, age, gender and 
 presenting complaint.
 
