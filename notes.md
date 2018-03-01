@@ -190,7 +190,7 @@ planning for gender, age group and presenting complaint.
 
 Due to the data being ordinal and nominal in nature, non-parametric measures will
 used to look for relationships. For this statistical analysis chi squared 
-test or a Fisher's exact test will be applied to look for a relationship
+test or a Fisher's exact test will be applied to look for an association 
 between advance care planning and the variables level of frailty, age, gender and 
 presenting complaint.
 
