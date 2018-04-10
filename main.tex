@@ -73,8 +73,8 @@
 }
 
 %Command to STOP the references section and everything after having it's own header.
-% The second line *should* include references in table of contents -doesn't work!
-\defbibheading{bibintoc}[\refname]{\section*{#1}}
+% The first for reports, second for articles
+\defbibheading{bibintoc}[\refname]{\chapter{#1}}
 %\defbibheading{bibliography}[\refname]{\section*{#1}}
 
 \usepackage{graphicx}
@@ -502,7 +502,10 @@ with observable characteristics. The utility of this is that it allows
 clinicians to apply the model and identify people with frailty: a person who has
 3 or more of the attributes in phenotype is considered to be frail. 
 
-\textcite{martin:08} notes a pitfall of the phenotype systme is that it fails to
+Use of this model relies on a knowledge of the characteristics of the population,
+making it unsuitable for clinical use \parencite{ensrud:08}.
+Furthermore, \textcite{martin:08} notes a pitfall of the phenotype systme is 
+that it fails to
 consider cognitive or psychosocial factors that contribute to frailty.
 Another drawback is how it categoriese people: not frail,
 pre-frail or frail. This does not allow for levels of frailty, lumping anyone with
@@ -533,14 +536,25 @@ across many systems. The practical clinical use of such a scale is questionned
 by \textcite{rockwood:05} who suggest that it is too time consuming for such an
 application. They assert that a better approach for clinical use is one based
 on clinical judgement, taking into account data collected through history taking
-and physical assessment.
+and physical assessment. They go on to report how they developed and validated
+such a tool: the clinical frailty scale (CFS). This scale varys from 1 (very fit)
+to 8 (very severely frail) with point 9 being terminally ill 
+(see Appendix~\ref{apx:cfs}).
 
-%****** Critique this a bit and then look at CFS ***
-
-\textcite{martin:08} conclude that different measures of frailty are suited to
-different purposes.
+It is accepted that different frailty assessment tools are suited to different
+applications \parencite{ensrud:08,martin:08,romero-ortuno:16}: research, public
+health planning and clinical practice. The CFS is recommended for use in urgent
+care by the Acute Frailty Network (www.acutefrailtynetwork.org.uk) and is
+used routinely in the local emergency department.
 
 \section{Recommendations for people with frailty}
+
+Frailty is a multi-dimsnsional syndrome and tools are available that facilitate
+screening for it. Indeed, national guidance in the UK is that older patients 
+should be screened for frailty at every contact with a health professional 
+\parencite{bgs:14}.
+
+
 
 \textcite{hunt:16} hints at frailty guiding personalisd care planning, but is not
 explicit in making this link.
@@ -596,6 +610,17 @@ patients admitted during other seasons.
 
 \chapter{Conclusion}
 The conclusion.
-\clearpage
+
 \printbibliography[heading=bibintoc]
+
+\clearpage
+%\begin{appendix}
+
+\appendix
+\chapter{Clinical Frailty Scale}
+\label{apx:cfs}
+\includegraphics[width=\textwidth]{CFS}
+
+%\end{appendix}
+
 \end{document}
