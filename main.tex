@@ -963,6 +963,9 @@ advance care planning
 was carried out for each level of CFS and group of frailty and for gender and
 presenting complaint. Histogram is used to illustrate this for patient age.
 
+The rest of this section is incomplete and will be completed once I've written
+the results chapter.
+
 The data is either ordinal or nominal, so for advanced or inferential 
 statistics 
 
@@ -1059,6 +1062,8 @@ common amongst older people (reference).
 
 \chapter{Results}
 
+\section{Sample distribution}
+
 The sample included 150 patients who had been discharged from CH. Two patients
 were removed because they had only been in the ward overnight and therefore
 there was insufficient data in their records to be able to determine their
@@ -1140,17 +1145,32 @@ figure~\ref{fig:chart-dist-cfs}.
 \end{figure}
 
 When frailty is grouped as described in section~\ref{ref:cfs-grouping} the 
-distribution is much more uniform. 
+distribution is much more uniform with mild, moderate and severely frail
+representing 36.5\%, 27.7\% and 35.8\% of the sample respectively.
+See figure~\ref{fig:chart-dist-frailty-level}.
+
+\begin{figure}[ht]
+\caption{Distribution by frailty level}
+\label{fig:chart-dist-frailty-level}
+\includegraphics[width=\textwidth,
+	trim={2.5cm 14cm 2.5cm 2.5cm},
+	clip]{media/chart-dist-frailty-level}
+\end{figure}
+
 
 Very few patients had a preexisting ACP on admission to CH. There were only 6
 patients, 4.1\% of the sample.
 
 
 \section{Advance care planning}
-\subsection{Descriptive statistics}
+
 Out of the sample of 148, six had a pre-existing ACP on admission to CH. These 
 were discounted from future analysis leaving a sample of 142. Of these 18 
-(12.7\%) had ACP during the hospital stay. The most common CFS score of patients 
+(12.7\%) had ACP during the hospital stay. There were no that declined ACP.
+
+\subsection{CFS}
+
+The most common CFS score of patients 
 who had ACP during CH was CFS=7 with 7 of the ACP patients, 38.9\% of them, 
 having this CFS. 
 This makes up 17.5\% of the patients with CFS=7. 
@@ -1160,6 +1180,7 @@ with this CFS underwent ACP. Figure \ref{fig:chart-acp-cfs} shows the number of
 patients who 
 had an ACP for each CFS whereas figure \ref{fig:chart-acp-cfs-percent} show this 
 number as a percentage of the total number for that CFS.
+
 
 \begin{figure}[ht]
 \caption{ACP and CFS}
@@ -1177,24 +1198,35 @@ number as a percentage of the total number for that CFS.
 	clip]{media/graph-cfs-acp-percent}
 \end{figure}
 
-
-
-\subsection{Inferential statistics}
-
-
-
 Computing a Spearman's rho correlation for CFS 
 and ACP shows that an increased CFS is associated with an increased incedence
 of ACP with a signicance of 0.001.
 
-When frailty is grouped into mild moderate and severe 
+\subsection{Frailty level}
 
-Looking at level of frailty against whether or not ACP happens 
+When frailty is grouped into mild, moderate and severe, we saw earlier that the
+sample was relatively evenly distributed. However two-thirds of all 
+patients who underwent ACP were severely frail. This represented one-quarter of
+all the patients who had that frailty level compared with mild and moderately
+frailty of which 7.5\% and 4.9\% respectively had ACP. 
+Figure~\ref{fig:chart-frailty-level-acp} illustrates this.
+
+\begin{figure}[ht]
+\caption{ACP and level of frailty}
+\label{fig:chart-frailty-level-acp}
+\includegraphics[width=\textwidth,
+	trim={2.5cm 14cm 2.5cm 2.5cm},
+	clip]{media/graph-frailty-level-acp}
+\end{figure}
+
+A Pearson Chi-Square test was computed which showed that severe frailty was
+significantly associated with higher rate of ACP when compared to mild and
+moderate frailty (p=0.006).
+
 % Can I do a table showing all this together??
 
 % Was the age distribution negatively skewed?
 
-There was no one that declined an ACP.
 
 \section{Limitations}
 I found it difficult to differentiate between CFS of 7 and 8 from casenotes.
