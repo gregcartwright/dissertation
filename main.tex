@@ -867,6 +867,11 @@ achieve this the record was searched for the following terms:
 \item ceiling
 \end{itemize}
 
+The search term ``ceiling'' was included as it was found that some practitioners
+had documented outcome of advance care planning as having agreed ``ceiling'' of
+the level of care for the patient. For example ``this patient should not be
+transferred to an acute hospital, community hospital is their ceiling of care.''
+
 Where one of these terms was found, the record was read in context to assess if 
 escalation planning or advance care planning was being considered. If this
 was considered at least once during the admission then this was recorded as 
@@ -1004,7 +1009,8 @@ statistics
 % or use the Kolmogorov–Smirnov test and Shapiro–Wilk test - Field p.144
 
 Chi-squared ($\chi^2$) requires expected frequeny in each cell to be at least 5 
-\parencite[page 690]{field:09}.
+\parencite[page 690]{field:09}. So where this was a problem I have used Fisher's
+Exact test.
 
 %%%%
 % Statistical tests
@@ -1069,16 +1075,8 @@ were removed because they had only been in the ward overnight and therefore
 there was insufficient data in their records to be able to determine their
 CFS. This left a sample of 148 patients. 
 
-Of these, 88 (59.5\%) were female and 60 (40.5\%) were male. The demographics of
-the sample are shown in table~\ref{tab:dist-overall}
-% figure~\ref{fig:dist-gender}.
-% \begin{figure}[ht]
-% \caption{Sample distribution by gender}
-% \label{fig:dist-gender}
-% \includegraphics[width=\textwidth,
-% 	trim={2.5cm 14cm 2.5cm 2.5cm},
-% 	clip]{media/dist-gender}
-% \end{figure}
+Of these, 88 (59.5\%) were female and 60 (40.5\%) were male. The demographics 
+and characteristics of the sample are shown in table~\ref{tab:dist-overall}.
 
 \begin{table}[p]
 \caption{Sample demographics and characteristics}
@@ -1092,68 +1090,16 @@ the sample are shown in table~\ref{tab:dist-overall}
 
 Patients in the sample group were relatively old: the mean age of patients was 
 81 years with a median of 84 years. The youngest was 40 with the oldest being 
-99. Summary statistics for the age of sample can be seen in 
-table~\ref{tab:age-sum-stats} and the distribution of the sample by age group 
-can be seen in table~\ref{tab:dist-age-group}.
-\begin{table}[ht]
-\caption{Summary statistics by age}
-\label{tab:age-sum-stats}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/age-sum-stats}
-\end{table}
-
-\begin{table}[ht]
-\caption{Sample distribution by age group}
-\label{tab:dist-age-group}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/dist-age-group}
-\end{table}
-
+99. 
 The initial presenting complaint was not evenly spread. Almost 80\% of the
 were originally admitted with one of the top three complaints: Fall 37.8\%, 
-infection 29.1\% and stroke 12.2\%. The full breakdown of this can be seen in
-table~\ref{tab:pres-comp} and figure~\ref{fig:pres-comp}.
-
-\begin{table}[ht]
-\caption{Sample distribution by grouped presenting complaint}
-\label{tab:pres-comp}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/dist-pres-comp}
-\end{table}
-
-\begin{figure}[ht]
-\caption{Sample distribution by grouped presenting complaint}
-\label{fig:pres-comp}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/chart-pres-comp}
-\end{figure}
+infection 29.1\% and stroke 12.2\%. 
 
 When viewed by CFS, the distribution shows a high level of frailty. The median 
 CFS was 6 - moderately frail, with only 36.5\% of the sample being less frail
 than this. Having said that, only just over 8\% of the sample had a CFS of 8
 or 9, with 55\% of the sample having CFS of either 6 or 7 - moderate or
-severe frailty. See table~\ref{tab:dist-cfs} and 
-figure~\ref{fig:chart-dist-cfs}.
-
-\begin{table}[ht]
-\caption{Sample distribution by CFS}
-\label{tab:dist-cfs}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/dist-cfs}
-\end{table}
-
-\begin{figure}[ht]
-\caption{Distribution by CFS}
-\label{fig:chart-dist-cfs}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/chart-dist-cfs}
-\end{figure}
+severe frailty. 
 
 When frailty is grouped as described in section~\ref{ref:cfs-grouping} the 
 distribution is much more uniform with mild, moderate and severely frail
@@ -1182,36 +1128,19 @@ were discounted from future analysis leaving a sample of 142. Of these 18
 \subsection{CFS}
 
 The most common CFS score of patients 
-who had ACP during CH was CFS=7 with 7 of the ACP patients, 38.9\% of them, 
-having this CFS. 
-This makes up 17.5\% of the patients with CFS=7. 
-The CFS score which had the highest 
+who had ACP during CH stay was CFS=7. 7 out of the 18 patients (38.9\%) that
+underwent ACP in the CH had a CFS of 7. Also this represents 17.5\% of the 
+patients with CFS=7. The CFS score which had the highest 
 proportion of it's patients having ACP was CFS=8 where 3 out of the 4 patients 
-with this CFS underwent ACP. Figure \ref{fig:chart-acp-cfs} shows the number of 
-patients who 
-had an ACP for each CFS whereas figure \ref{fig:chart-acp-cfs-percent} show this 
-number as a percentage of the total number for that CFS.
+with this CFS underwent ACP ($p=0.011$, see table~\ref{tab:statistics}).
 
-
-\begin{figure}[ht]
-\caption{ACP and CFS}
-\label{fig:chart-acp-cfs}
+\begin{table}[ht]
+\caption{Summary of staistical analysis}
+\label{tab:statistics}
 \includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/graph-cfs-acp-count}
-\end{figure}
-
-\begin{figure}[ht]
-\caption{ACP as percentage within CFS}
-\label{fig:chart-acp-cfs-percent}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
-	clip]{media/graph-cfs-acp-percent}
-\end{figure}
-
-Computing a Spearman's rho correlation for CFS 
-and ACP shows that an increased CFS is associated with an increased incedence
-of ACP with a signicance of 0.001.
+	trim={2.5cm 10cm 2.5cm 2.5cm},
+	clip]{media/statistical-analysis}
+\end{table}
 
 \subsection{Frailty level}
 
@@ -1225,8 +1154,9 @@ Figure~\ref{fig:chart-frailty-level-acp} illustrates this.
 \begin{figure}[ht]
 \caption{ACP and level of frailty}
 \label{fig:chart-frailty-level-acp}
-\includegraphics[width=\textwidth,
-	trim={2.5cm 14cm 2.5cm 2.5cm},
+\includegraphics[
+	width=\textwidth,
+	trim={2.5cm 2.5cm 2.5cm 2.5cm},
 	clip]{media/graph-frailty-level-acp}
 	% This chart had changed in SPSS !!!!
 \end{figure}
