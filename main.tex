@@ -893,19 +893,18 @@ The presenting complaint was the reason that the patient was originally
 admitted to hospital. The EPR records were carefully read to determine this,
 and it was recorded in the table. To facilitate statistical analysis, the 
 presenting complaint was subsequently grouped or coded:
-% put this into a table
-\begin{enumerate}
-\setcounter{enumi}{-1}
-\item Fall
-\item Infection
-\item Malignancy
-\item Stroke
-\item Gastrointestinal
-\item Musculoskeletal
-\item Other neurological
-\item Cardiovascular
-\item Other
-\end{enumerate}
+
+\begin{tabular}{ r l }
+0 & Fall \\
+1 & Infection \\
+2 & Malignancy \\
+3 & Stroke \\
+4 & Gastrointestinal (GI) \\
+5 & Musculoskeletal (MSK) \\
+6 & Other neurological \\
+7 & Cardiovascular (CVS) \\
+8 & Other \\
+\end{tabular}
 
 A fall is usually multifactorial in cause \parencite{silver:12} and therefore
 does not usually have a single cause that fits into one category. For this 
@@ -918,8 +917,6 @@ with stroke. If the presenting complaint was a general decline in mobility
 with no single identified cause, then this was coded as musculoskeletal.
 Confusion with no specific cause is coded as other neurological.
 
-
-
 \section{Framework for data analysis}
 
 Once the data was collected in the Excel table, this was imported into 
@@ -927,27 +924,37 @@ Statistical Package for the Social Sciences (SPSS) version 21 which was then
 used for statistical analysis of the data.
 
 For analysis it was helpful to group ages and CFS. Ages of subjects were 
-grouped as follows:
-\begin{itemize}
-	\item less than 50
-	\item 50 to 65
-	\item 65 to 70
-	\item 70 to 75
- 	\item 75 to 80
-	\item 80 to 85
- 	\item 85 to 90
- 	\item 90 to 95
- 	\item 95 to 100
- 	\item over 100
-\end{itemize}
+grouped as follows: less than or equal to 40, 41 to 45, then in five year 
+intervals up to 91 to 95, greater than or equal to 96.
+
+% \begin{itemize}
+% 	\item less than 50
+% 	\item 50 to 65
+% 	\item 65 to 70
+% 	\item 70 to 75
+%  	\item 75 to 80
+% 	\item 80 to 85
+%  	\item 85 to 90
+%  	\item 90 to 95
+%  	\item 95 to 100
+%  	\item over 100
+% \end{itemize}
 
 Frailty was categorised by grouping CFS:
-\begin{itemize}
+% \begin{itemize}
 \label{ref:cfs-grouping}
-	\item mild frailty: CFS 1 to 5
-	\item moderate frailty: CFS 6
-	\item Severe frailty: CFS 7 to 9
-\end{itemize}
+% 	\item mild frailty: CFS 1 to 5
+% 	\item moderate frailty: CFS 6
+% 	\item Severe frailty: CFS 7 to 9
+% \end{itemize}
+
+\begin{tabular}{ r l }
+\emph{CFS} & \emph{Frailty level} \\
+\hline
+1 to 5	& Mild	\\
+6		& Moderate \\
+7 to 9	& Severe \\
+\end{tabular}
 
 Objective~\ref{obj:prevalence} involves looking at the levels of frailty of
 subjects in the sample. To illustrate this the study sample has been 
@@ -981,10 +988,11 @@ The data is either ordinal or nominal, so for advanced statistics
 non-parametric tests were applied. Chi-squared ($\chi^2$) test was used, 
 however it is only
 suitable for use where the expected frequency of an outcome is at least 5
-\parencite[page 690]{field:09}. This criteria was not met When performing 
+\parencite[page 690]{field:09}. This criteria was not met when performing 
 $\chi^2$ to assess for association between ACP and the independent variables 
 of CFS, age and presenting complaint. Therefore in these cases a Fisher's exact
-test was used.i
+test was used. The level of statistical significance that has been used is
+$p<0.05$.
 
 %%%%%%
 % Variables
@@ -1082,8 +1090,8 @@ difference in level of frailty between the genders ($\chi^2$, $p=0.476$).
 In this sample increased age was associated with increased CFS (Spearman's rho
 $p=0.004$).
 
-Very few patients had a preexisting ACP on admission to CH. There were only 6
-patients, 4.1\% of the sample. There was no significant difference in this
+Very few patients had a preexisting ACP on admission to CH: 6
+patients (4.1\%). There was no significant difference in this
 for the genders (Fisher's exact test, $p=0.182$).
 
 
@@ -1095,7 +1103,7 @@ were discounted from future analysis leaving a sample of 142. Of these 18
 declined ACP. The statistics regarding association between the independent 
 variables; CFS, frailty level, age, gender and presenting complaint; and the 
 dependent variable of whether ACP happens is presented in 
-table~\ref{tab:statistics}).
+table~\ref{tab:statistics}.
 
 \begin{table}[ht]
 \caption{Summary of statistical analysis}
