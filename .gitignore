@@ -8,6 +8,8 @@
 *.run.xml
 *.bak
 *.toc
+*.lof
+*.lot
 
 # compiled target files
 #####################
