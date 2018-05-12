@@ -82,7 +82,7 @@
 
 \usepackage{graphicx}
 
-
+\def\graphdiv{0.23}
 % Add my bibliography file here
 \addbibresource{references.bib}
 
@@ -1710,23 +1710,49 @@ will benefit some of the more frail patients that his team encounter.
 \chapter{Age distibution analysis}
 
 \begin{figure}[ht]
-\centering
-\begin{minipage}{0.45\textwidth}
+%\centering
+%\begin{minipage}{0.45\textwidth}
 \centering
 \includegraphics[width=\textwidth,
-	height=0.2\textheight,
-	trim={2.5cm 16.5cm 2.5cm 3cm},
+	%height=\graphdiv\textheight,
+	trim={2.5cm 15.5cm 2.5cm 3cm},
 	clip]{media/age-normal-curve}
 \caption{Age histogram with normal distirbution curve}
-\end{minipage}\hfill
-\begin{minipage}{0.45\textwidth}
+%\end{minipage}\hfill
+\end{figure}
+
+%\begin{minipage}{0.45\textwidth}
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth,
-	height=0.2\textheight,
+	%height=\graphdiv\textheight,
 	trim={2.5cm 22cm 12cm 2cm},
 	clip]{media/age-skew-kurtosis}
 \caption{Age skewness and kurtosis measures}
-\end{minipage}
+%\end{minipage}
+\end{figure}
+
+\begin{figure}[ht]
+%\centering
+%\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth,
+	%height=\graphdiv\textheight,
+	trim={2.5cm 13cm 2.5cm 2cm},
+	clip]{media/age-p-p}
+\caption{P-P plot for age}
+%\end{minipage}\hfill
+%\begin{minipage}{0.45\textwidth}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth,
+	%height=\graphdiv\textheight,
+	trim={2.5cm 15cm 2.5cm 3cm},
+	clip]{media/age-detrended-p-p}
+\caption{Detrended P-P plot for age}
+%\end{minipage}
 \end{figure}
 
 \end{document}
