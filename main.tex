@@ -1011,7 +1011,8 @@ presenting complaint. Histogram is used to illustrate this for patient age.
 There are two types of tests for advanced statistics: parametric and
 non-parametric. For parametric tests the data has to be either interval or
 ratio in nature, and it has to be normally distributed \parencite{parahoo:14}.
-In this study the variable age is ratio data and the rest is either ordinal
+In this study it is only the age variable that is ratio data and the rest is 
+either ordinal
 (CFS, frailty level) or nominal (gender, presenting) complaint.
 
 
@@ -1677,9 +1678,9 @@ will benefit some of the more frail patients that his team encounter.
 \printbibliography[heading=bibintoc]
 
 \clearpage
-%\begin{appendix}
 
 \appendix
+
 \chapter{Clinical Frailty Scale}
 \label{apx:cfs}
 \includegraphics[width=\textwidth]{CFS}
@@ -1706,6 +1707,26 @@ will benefit some of the more frail patients that his team encounter.
 
 	\parencite[page 8]{bgs:14}
 
-%\end{appendix}
+\chapter{Age distibution analysis}
+
+\begin{figure}[ht]
+\centering
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth,
+	height=0.2\textheight,
+	trim={2.5cm 16.5cm 2.5cm 3cm},
+	clip]{media/age-normal-curve}
+\caption{Age histogram with normal distirbution curve}
+\end{minipage}\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth,
+	height=0.2\textheight,
+	trim={2.5cm 22cm 12cm 2cm},
+	clip]{media/age-skew-kurtosis}
+\caption{Age skewness and kurtosis measures}
+\end{minipage}
+\end{figure}
 
 \end{document}
