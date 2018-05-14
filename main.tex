@@ -43,6 +43,10 @@
 	sorting=nyt,
 	language=british]{biblatex}
 
+% Remove "In:" form before name of journal
+\renewbibmacro{in:}{%
+	\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+
 %Add a comma between name and year in citations
 \renewcommand*{\nameyeardelim}{\addcomma\space}
 %put double space between entries in the references
@@ -88,6 +92,7 @@
 \addbibresource{references.bib}
 
 \begin{document}
+
 \author{Gregory Cartwright\\
 	Student number 3403548\\
 	MSc Advanced Nurse Practitioner dissertation
@@ -1692,11 +1697,11 @@ will benefit some of the more frail patients that his team encounter.
 	\end{enumerate}
 
 	\parencite[page 8]{bgs:14}
-
 \chapter{Data collection tool}
 \label{apx:tool}
-\includegraphics[width=\textwidth]{dataCollection}
-
+\includegraphics[width=\textwidth,
+	trim={0.5cm 13cm 2.5cm 1.5cm},
+	clip]{dataCollection}
 \chapter{Age distribution analysis}
 
 \label{apx:dist-analysis}
@@ -1748,23 +1753,35 @@ will benefit some of the more frail patients that his team encounter.
 \end{figure}
 
 \chapter{Ethical approval letter}
-
+The letter of approval from the LSBU School of Health and Social Care Ethics
+Committee is on the next page.
+\pagebreak
 \label{apx:ethics}
-\includegraphics[width=\textwidth]{media/final-ethics-approval}
+\includegraphics[width=0.8\textwidth,
+	trim={1cm 0cm 1cm 0cm},
+	clip]{media/final-ethics-approval}
 
 \chapter{Raw SPSS output}
 \label{apx:raw-spss}
-\includegraphics[width=\textwidth,
+\begin{center}
+\includegraphics[width=0.8\textwidth,
 	page=1,
-	trim={2.5cm 2.5cm 2.5cm 2.5cm},
+	trim={2.5cm 8cm 2.5cm 2.5cm},
 	clip]{media/raw-spss}
-\includegraphics[width=\textwidth,
+\end{center}
+\pagebreak
+\begin{center}
+\includegraphics[width=0.8\textwidth,
 	page=2,
-	trim={2.5cm 2.5cm 2.5cm 2.5cm},
+	trim={2.5cm 5cm 2.5cm 2.5cm},
 	clip]{media/raw-spss}
-\includegraphics[width=\textwidth,
+\end{center}
+\pagebreak
+\begin{center}
+\includegraphics[width=0.8\textwidth,
 	page=3,
-	trim={2.5cm 2.5cm 2.5cm 2.5cm},
+	trim={2.5cm 5cm 2.5cm 2.5cm},
 	clip]{media/raw-spss}
+\end{center}
 
 \end{document}
